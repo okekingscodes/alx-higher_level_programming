@@ -18,4 +18,4 @@ if __name__ == '__main__':
     states = session.query(State).filter(State.name.like('%a%')).all()
 
     for state in states:
-        print("{}: {}".format(state.id, state.nam)
+        print("{}: {}".format(state.id, state.name))
